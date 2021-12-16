@@ -1,0 +1,11 @@
+{
+  "pathzip": "C:\\Users\\Piete\\Documents\\Hogent\\Semester 2\\Programmeren gevorderd\\zipdata\\AdresBestanden.zip",
+  "pathExtract": "C:\\Users\\Piete\\Documents\\Hogent\\Semester 2\\Programmeren gevorderd\\zipdata\\temp\\extract",
+  "pathResult": "C:\\Users\\Piete\\Documents\\Hogent\\Semester 2\\Programmeren gevorderd\\zipdata\\temp\\results\\",
+  "straatnaam": "straatnamen.csv",
+  "gemeentenaam": "gemeentenaam.csv",
+  "provincieInfo": "provincieInfo.csv",
+  "straatnaamIDgemeenteID": "straatnaamID_gemeenteID.csv",
+  "provincies": "provincieidsvlaanderen.csv",
+  "outputFileName": "adresinfo.txt"
+}

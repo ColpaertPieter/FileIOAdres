@@ -1,0 +1,130 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Piete\\Documents\\Hogent\\Semester 2\\Programmeren gevorderd\\Solutions\\EvaluatieOefeningen\\AdresInfoFileIO\\AdresProcessor\\AdresProcessor.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Piete\\Documents\\Hogent\\Semester 2\\Programmeren gevorderd\\Solutions\\EvaluatieOefeningen\\AdresInfoFileIO\\AdresDataVerwerker\\AdresdataLib.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Piete\\Documents\\Hogent\\Semester 2\\Programmeren gevorderd\\Solutions\\EvaluatieOefeningen\\AdresInfoFileIO\\AdresDataVerwerker\\AdresdataLib.csproj",
+        "projectName": "AdresdataLib",
+        "projectPath": "C:\\Users\\Piete\\Documents\\Hogent\\Semester 2\\Programmeren gevorderd\\Solutions\\EvaluatieOefeningen\\AdresInfoFileIO\\AdresDataVerwerker\\AdresdataLib.csproj",
+        "packagesPath": "C:\\Users\\Piete\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Piete\\Documents\\Hogent\\Semester 2\\Programmeren gevorderd\\Solutions\\EvaluatieOefeningen\\AdresInfoFileIO\\AdresDataVerwerker\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Piete\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Piete\\Documents\\Hogent\\Semester 2\\Programmeren gevorderd\\Solutions\\EvaluatieOefeningen\\AdresInfoFileIO\\AdresProcessor\\AdresProcessor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Piete\\Documents\\Hogent\\Semester 2\\Programmeren gevorderd\\Solutions\\EvaluatieOefeningen\\AdresInfoFileIO\\AdresProcessor\\AdresProcessor.csproj",
+        "projectName": "AdresProcessor",
+        "projectPath": "C:\\Users\\Piete\\Documents\\Hogent\\Semester 2\\Programmeren gevorderd\\Solutions\\EvaluatieOefeningen\\AdresInfoFileIO\\AdresProcessor\\AdresProcessor.csproj",
+        "packagesPath": "C:\\Users\\Piete\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Piete\\Documents\\Hogent\\Semester 2\\Programmeren gevorderd\\Solutions\\EvaluatieOefeningen\\AdresInfoFileIO\\AdresProcessor\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Piete\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Piete\\Documents\\Hogent\\Semester 2\\Programmeren gevorderd\\Solutions\\EvaluatieOefeningen\\AdresInfoFileIO\\AdresDataVerwerker\\AdresdataLib.csproj": {
+                "projectPath": "C:\\Users\\Piete\\Documents\\Hogent\\Semester 2\\Programmeren gevorderd\\Solutions\\EvaluatieOefeningen\\AdresInfoFileIO\\AdresDataVerwerker\\AdresdataLib.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
